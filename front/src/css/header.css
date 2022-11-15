@@ -1,0 +1,32 @@
+header {
+    background-color: #3d3c3c;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.listnav {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.listnav li {
+    margin: 0 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.imglogo {
+    width: 50px;
+    cursor: pointer;
+    height: 50px;
+}

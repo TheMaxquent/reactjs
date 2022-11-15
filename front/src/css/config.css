@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.widgetStory {
+    /*max-width: 650px;*/
+    /*min-width: 280px;*/
+    width: 35%;
+    height: 400px;
+    background-color: #356cbd;
+    border-radius: 15px;
+    margin: 20px;
+
+
+}
+
+.widgetAthlete {
+    /*max-width: 650px;*/
+    /*min-width: 280px;*/
+    width: 35%;
+    height: 800px;
+    background-color: #0f980f;
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+    top: -190px;
+    overflow-y: scroll;
+
+}
+.widgetPodium {
+    /*max-width: 650px;*/
+    /*min-width: 280px;*/
+    width: 35%;
+    height: 600px;
+    background-color: #e3c926;
+    border-radius: 15px;
+    margin: 20px;
+
+
+}
+.widgetQuizz {
+    /*width: 650px;*/
+    /*min-width: 280px;*/
+    width: 35%;
+    border-radius: 15px;
+    background-color: #da4545;
+    margin: 20px;
+    height: 612px;
+
+}
+
+.widgetAthlete h3, .widgetPodium h3, .widgetQuizz h3, .widgetStory h3 {
+
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+
+}
+
+.widgetAthlete::-webkit-scrollbar {
+    width: 12px;
+    background-color: white;
+}
+
+.widgetAthlete::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0);
+
+}
+
+.widgetAthlete::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(0, 0, 0);
+}
+
+.nationality {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.card {
+    color: white;
+    background-color: white;
+    width: 80%;
+    margin: 20px;
+}
+
+.imgpays {
+    width: 40px;
+}
+
+
+
+
